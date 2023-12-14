@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Cluster
 metadata:
   name: "testeec2full"
+  environment:
+    cluster_type: ec2
   annotations:
     github.com/project-slug: veecode-homolog/testeec2full
     backstage.io/techdocs-ref: dir:.
